@@ -18,7 +18,7 @@ jobs:
     - name: configure
       run: ./configure
     - name: make
-      run: make
+      run: nmake-f NMakefile
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
       with:
